@@ -1,0 +1,191 @@
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #f4f4f4;
+}
+.header > view {
+  flex: 1;
+  text-align: center;
+  display: inline-block;
+  padding: 18rpx 24rpx;
+  font-size: 32rpx;
+}
+.header > view.active {
+  color: #2196F3;
+  border-bottom: 2px solid #2196F3;
+}
+.content {
+  padding-top: 85rpx;
+}
+.loading-icon {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+.dept-title {
+  padding: 16rpx 32rpx;
+  font-size: 28rpx;
+  background: #f4f4f4;
+}
+.content-list {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #f4f4f4;
+  padding: 32rpx;
+  color: #212121;
+}
+.content-list .information {
+  display: flex;
+  align-items: top;
+  flex: 1;
+}
+.content-list .icon {
+  margin-top: 5rpx;
+  margin-right: 26rpx;
+  display: flex;
+  align-items: top;
+}
+.content-list .icon image {
+  width: 70rpx;
+  height: 70rpx;
+}
+.content-list .st-title > view {
+  margin-bottom: 4rpx;
+}
+.content-list .st-title .title {
+  font-size: 28rpx;
+  margin: 0 0 16rpx 0;
+}
+.content-list .st-title .description {
+  color: #757575;
+  font-size: 24rpx;
+}
+.content-list .st-title .time {
+  color: #757575;
+  font-size: 24rpx;
+}
+.content-list .transfer-icon {
+  margin-right: 16rpx;
+  display: flex;
+  align-items: center;
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.content-list .status {
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.content-list .NEW {
+  color: #ff8800;
+}
+.content-list .AGREE {
+  color: #19be6b;
+}
+.content-list .REJECT {
+  color: red;
+}
+.scrollBox {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background: #1296db;
+  border: 4rpx solid #eeeeee;
+  box-shadow: 1rpx 1rpx 18rpx #cbcbcb;
+  position: fixed;
+  bottom: 12%;
+  right: 8%;
+  z-index: 9999;
+  text-align: center !important;
+}
+.img-center {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.car-num {
+  background: green;
+  color: #fff;
+  padding: 6rpx 12rpx;
+  margin-left: 20rpx;
+}
+.row {
+  display: block;
+  align-items: center;
+  margin: 0 20px;
+  border-bottom: 2rpx solid #f4f4f4;
+  padding: 16rpx 0;
+  color: #212121;
+}
+.row .information {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-top: 8px;
+}
+.row .user-info {
+  display: flex;
+  align-items: center;
+}
+.row .user-info .title {
+  font-size: 14px;
+}
+.row .user-info .icon {
+  margin-right: 16rpx;
+  display: flex;
+  align-items: center;
+}
+.row .user-info .icon image {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 40px;
+}
+.row .st-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.row .st-title > view {
+  margin-bottom: 4rpx;
+}
+.row .st-title .title {
+  font-size: 28rpx;
+}
+.row .st-title .description {
+  color: #757575;
+  font-size: 24rpx;
+}
+.row .st-title .time {
+  color: #757575;
+  font-size: 24rpx;
+}
+.row .st-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.row .st-bottom > view {
+  margin-bottom: 4rpx;
+}
+.row .st-bottom .title {
+  font-size: 28rpx;
+}
+.row .st-bottom .description {
+  color: #757575;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+  display: flex;
+}
+.row .st-bottom .time {
+  color: #757575;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}
+

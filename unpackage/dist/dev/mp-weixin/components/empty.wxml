@@ -1,0 +1,1 @@
+<view class="empty"><view class="iconfont icon-empty empty-no-more"></view><view class="title fs14">{{title}}</view></view>

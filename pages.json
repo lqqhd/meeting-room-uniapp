@@ -1,0 +1,180 @@
+{
+  "pages": [
+    {
+      "path": "pages/index"
+    },
+    {
+      "path": "pages/chart"
+    },
+    {
+      "path": "pages/phonebook"
+    },
+    {
+      "path": "pages/setting"
+    },
+    {
+      "path": "pages/rota/rota"
+    },
+    {
+      "path": "pages/rota/rota_list"
+    },
+    {
+      "path": "pages/audit/audit"
+    },
+    {
+      "path": "pages/boardbook/boardbook_form"
+    },
+    {
+      "path": "pages/carbook/carbook_form"
+    },
+    {
+      "path": "pages/carbook/carbook_list"
+    },
+    {
+      "path": "pages/car/car_form"
+    },
+    {
+      "path": "pages/car/car_list"
+    },
+    {
+      "path": "pages/boardroom/boardroom_form"
+    },
+    {
+      "path": "pages/boardroom/boardroom_list"
+    },
+    {
+      "path": "pages/sysOffice/sysOffice_form"
+    },
+    {
+      "path": "pages/sysOffice/sysOffice_list"
+    },
+    {
+      "path": "pages/employee/employee_form"
+    },
+    {
+      "path": "pages/user/join_corp_form"
+    },
+    {
+      "path": "pages/user/bind_user_form"
+    },
+    {
+      "path": "pages/user/create_corp_form"
+    },
+    {
+      "path": "pages/user/member_pay"
+    },
+    {
+      "path": "pages/user/member_agree"
+    },
+    {
+      "path": "pages/user/invite_user"
+    },
+    {
+      "path": "pages/user/invite_join"
+    },
+    {
+      "path": "pages/user/modify_mobile"
+    },
+    {
+      "path": "pages/publish/publish_form"
+    },
+    {
+      "path": "pages/publish/publish_list"
+    },
+    {
+      "path": "pages/publish/publish_detail"
+    },
+    {
+      "path": "pages/settings/feedback"
+    },
+    {
+      "path": "pages/settings/header"
+    },
+    {
+      "path": "pages/settings/home_setting"
+    },
+    {
+      "path": "pages/settings/user_info"
+    },
+    {
+      "path": "pages/settings/name_edit"
+    },
+    {
+      "path": "pages/settings/avatar_edit"
+    },
+    {
+      "path": "pages/settings/nickname_edit"
+    },
+    {
+      "path": "pages/settings/about"
+    },
+    {
+      "path": "pages/settings/role_info"
+    },
+    {
+      "path": "pages/settings/contact"
+    },
+    {
+      "path": "pages/message"
+    },
+    {
+      "path": "pages/message/detail"
+    },
+    {
+      "path": "pages/friends/index"
+    },
+    {
+      "path": "pages/friends/search"
+    }
+  ],
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#000000",
+    "selectedColor": "#2196F3",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "iconPath": "static/images/settings/ic_nav_home.png",
+        "selectedIconPath": "static/images/settings/ic_nav_home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/carbook/carbook_list",
+        "iconPath": "static/images/settings/ic_nav_car.png",
+        "selectedIconPath": "static/images/settings/ic_nav_car_active.png",
+        "text": "车辆"
+      },
+      {
+        "pagePath": "pages/phonebook",
+        "iconPath": "static/images/settings/ic_nav_phonebook.png",
+        "selectedIconPath": "static/images/settings/ic_nav_phonebook_active.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/setting",
+        "iconPath": "static/images/settings/ic_nav_my.png",
+        "selectedIconPath": "static/images/settings/ic_nav_my_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 100000,
+    "downloadFile": 100000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于行车或打卡记录的地理位置"
+    }
+  },
+  "debug": false,
+  "plugins": {},
+  "globalStyle": {
+    "backgroundColor": "#efefef",
+    "navigationBarBackgroundColor": "#1976D2",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "铛铛办公",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  }
+}

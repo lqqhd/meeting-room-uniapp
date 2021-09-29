@@ -1,0 +1,1 @@
+<view class="container"><web-view src="https://daguanjia.jikebang.com/app/oa-license.htm" data-event-opts="{{[['message',[['',['$event']]]]]}}" bindmessage="__e"></web-view></view>

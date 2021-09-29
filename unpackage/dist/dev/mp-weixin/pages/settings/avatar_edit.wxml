@@ -1,0 +1,1 @@
+<view><view class="cropper-buttons"><view data-event-opts="{{[['tap',[['uploadTap',['$event']]]]]}}" class="upload" bindtap="__e">选择图片</view><view data-event-opts="{{[['tap',[['getCropperImage',['$event']]]]]}}" class="getCropperImage" bindtap="__e">确认</view></view></view>

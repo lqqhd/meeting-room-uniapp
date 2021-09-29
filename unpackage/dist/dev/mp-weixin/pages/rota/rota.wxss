@@ -1,0 +1,47 @@
+
+.btn {
+	color: red;
+	width: 167rpx;
+	height: 70rpx;
+	font-size: 24rpx;
+	padding: 0;
+	border: 1px solid red;
+	background: #fff;
+	border-radius: 4px;
+	margin: 15rpx 10rpx;
+	text-align: center;
+}
+.btn-selected {
+	border: 1px solid red;
+	color: white;
+	background: red;
+}
+.comment-btn {
+	display: flex;
+}
+
+
+.container {
+  background: #ffffff;
+}
+.ljt-tab {
+  height: 80rpx;
+  line-height: 80rpx;
+  background: white;
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+}
+.ljt-tab .time {
+  border-right: 1px solid #f4f4f4;
+  color: #999;
+}
+.ljt-tab .active {
+  color: #2196F3;
+  border-bottom: 2px solid #2196F3;
+}
+.ljt-tab > view {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+

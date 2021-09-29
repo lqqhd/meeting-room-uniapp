@@ -1,0 +1,15 @@
+.empty {
+  text-align: center;
+}
+.empty .empty-no-more {
+  font-size: 240rpx;
+  color: #eee;
+}
+.empty image {
+  width: 250rpx;
+  height: 250rpx;
+}
+.empty .title {
+  color: #999;
+}
+

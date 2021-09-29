@@ -1,0 +1,1 @@
+<view><import vue-id="5fe85d2e-1" src="/utils/wxparse/wxParse.wxml" bind:__l="__l"></import><block wx:for="{{htmlParserTpl.nodes}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block></block></block></view>

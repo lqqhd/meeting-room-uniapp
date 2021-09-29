@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/chart",
+    "pages/phonebook",
+    "pages/setting",
+    "pages/rota/rota",
+    "pages/rota/rota_list",
+    "pages/audit/audit",
+    "pages/boardbook/boardbook_form",
+    "pages/carbook/carbook_form",
+    "pages/carbook/carbook_list",
+    "pages/car/car_form",
+    "pages/car/car_list",
+    "pages/boardroom/boardroom_form",
+    "pages/boardroom/boardroom_list",
+    "pages/sysOffice/sysOffice_form",
+    "pages/sysOffice/sysOffice_list",
+    "pages/employee/employee_form",
+    "pages/user/join_corp_form",
+    "pages/user/bind_user_form",
+    "pages/user/create_corp_form",
+    "pages/user/member_pay",
+    "pages/user/member_agree",
+    "pages/user/invite_user",
+    "pages/user/invite_join",
+    "pages/user/modify_mobile",
+    "pages/publish/publish_form",
+    "pages/publish/publish_list",
+    "pages/publish/publish_detail",
+    "pages/settings/feedback",
+    "pages/settings/header",
+    "pages/settings/home_setting",
+    "pages/settings/user_info",
+    "pages/settings/name_edit",
+    "pages/settings/avatar_edit",
+    "pages/settings/nickname_edit",
+    "pages/settings/about",
+    "pages/settings/role_info",
+    "pages/settings/contact",
+    "pages/message",
+    "pages/message/detail",
+    "pages/friends/index",
+    "pages/friends/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundColor": "#efefef",
+    "navigationBarBackgroundColor": "#1976D2",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "铛铛办公",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#000000",
+    "selectedColor": "#2196F3",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "iconPath": "static/images/settings/ic_nav_home.png",
+        "selectedIconPath": "static/images/settings/ic_nav_home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/carbook/carbook_list",
+        "iconPath": "static/images/settings/ic_nav_car.png",
+        "selectedIconPath": "static/images/settings/ic_nav_car_active.png",
+        "text": "车辆"
+      },
+      {
+        "pagePath": "pages/phonebook",
+        "iconPath": "static/images/settings/ic_nav_phonebook.png",
+        "selectedIconPath": "static/images/settings/ic_nav_phonebook_active.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/setting",
+        "iconPath": "static/images/settings/ic_nav_my.png",
+        "selectedIconPath": "static/images/settings/ic_nav_my_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
